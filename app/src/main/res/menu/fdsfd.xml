@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/add"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_add_circle_outline_24"
+        android:id="@+id/action_add"
+        />
+
+    <item
+        android:title="@string/logout"
+        app:showAsAction="never"
+        android:icon="@drawable/baseline_logout_24"
+        android:id="@+id/action_logout"
+        />
+    <item
+        android:title="@string/about"
+        app:showAsAction="never"
+        android:id="@+id/action_about"
+        />
+</menu>
